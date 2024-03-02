@@ -10,7 +10,7 @@
     "estimated_time_until_replacement": 60,
     "current_charge": 80,
     "amount_of_co2_saved": 3500,
-    "url": "http://www.example.com/"
+    "url": "https://www.motortrend.com/uploads/sites/10/2017/08/2018-toyota-camry-se-sedan-angular-front.png"
   },
   {
     "reg": "CD34LMN",
@@ -22,7 +22,8 @@
     "number_of_cycles": 1200,
     "estimated_time_until_replacement": 40,
     "current_charge": 65,
-    "amount_of_co2_saved": 2800
+    "amount_of_co2_saved": 2800,
+    "url": ""
   },
   {
     "reg": "EF56OPQ",
