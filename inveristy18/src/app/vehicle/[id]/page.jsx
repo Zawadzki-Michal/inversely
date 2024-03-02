@@ -6,21 +6,23 @@ export default async function VehicleDetails({ params }) {
   return (
 
 
-    <div className="bg-emerald-50 flex justify-center gap-24 p-24 min-h-screen">
+    <div className="bg-emerald-50 flex flex-col-reverse md:flex-row-reverse p-4 justify-center gap-24 lg:p-24 min-h-screen">
       
-      <div className="lg:text-2xl leading-loose">
-      <h1>Your Vehicle Report:</h1>
-      <div>
-        <div>Make: {carReg.make}</div>
-        <div>Model: {carReg.model}</div>
-        <div>Year: {carReg.production_year}</div>
-        <div>Mileage: {carReg.mileage}</div>
-      </div>
-      <div>Your battery health is {carReg.battery_health}</div>
-      <div>{carReg.estimated_time_until_replacement}</div>
-      <div>{carReg.number_of_cycles}</div>
-      <div>{carReg.current_charge}</div>
-        <div>{carReg.amount_of_co2_saved}</div>
+      <div className="lg:text-2xl text-lg font-semibold  leading-loose">
+      <h1>Your Vehicle Report</h1>
+      <div className="leading-relaxed">
+        <p>Make: {carReg.make}</p>
+        <p>Model: {carReg.model}</p>
+        <p>Year: {carReg.production_year}</p>
+        <p>Mileage: {carReg.mileage}</p>
+        </div>
+        <div className="leading-relaxed">
+      <p>Your battery health is: {carReg.battery_health}</p>
+      <p>Estimated time until battery replacement (months): {carReg.estimated_time_until_replacement}</p>
+      <p>Number of battery cycles {carReg.number_of_cycles}</p>
+      <p>Current charge level: {carReg.current_charge}%</p>
+          <p>Amount of CO2 saved: {carReg.amount_of_co2_saved}KG</p>
+          </div>
       </div>
       <div>
       <Image
