@@ -23,7 +23,7 @@
     "estimated_time_until_replacement": 40,
     "current_charge": 65,
     "amount_of_co2_saved": 2800,
-    "url": ""
+    "url": "https://cars.usnews.com/pics/size/390x290/images/Auto/izmo/i238995/2016_honda_accord_angularfront.jpg"
   },
   {
     "reg": "EF56OPQ",
@@ -35,7 +35,8 @@
     "number_of_cycles": 1800,
     "estimated_time_until_replacement": 55,
     "current_charge": 75,
-    "amount_of_co2_saved": 4000
+    "amount_of_co2_saved": 4000,
+    "url": "https://www.motortrend.com/uploads/sites/10/2018/11/2019-chevrolet-malibu-lt-sedan-angular-front.png?fit=around%7C875:492"
   },
   {
     "reg": "GH78RST",
@@ -47,7 +48,8 @@
     "number_of_cycles": 1000,
     "estimated_time_until_replacement": 50,
     "current_charge": 70,
-    "amount_of_co2_saved": 3200
+    "amount_of_co2_saved": 3200,
+    "url": "https://cdn.motor1.com/images/mgl/zjKK6/s1/2017-ford-fusion.jpg"
   },
   {
     "reg": "IJ90UVW",
@@ -59,7 +61,8 @@
     "number_of_cycles": 1300,
     "estimated_time_until_replacement": 45,
     "current_charge": 85,
-    "amount_of_co2_saved": 3700
+    "amount_of_co2_saved": 3700,
+    "url": "https://www.cars.com/i/large/in/v2/stock_photos/29aa41a1-8e67-4a7d-8424-10ae2f521512/a123e269-96be-4f60-9b80-26ee9011b090.png"
   },
   {
     "reg": "KL12XYZ",
