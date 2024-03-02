@@ -1,4 +1,3 @@
-"use client";
 import findVehicleDetails from "./findVehicleDetails";
 import Image from "next/image";
 
