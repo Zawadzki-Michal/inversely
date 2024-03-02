@@ -74,7 +74,8 @@
     "number_of_cycles": 1200,
     "estimated_time_until_replacement": 58,
     "current_charge": 78,
-    "amount_of_co2_saved": 3800
+    "amount_of_co2_saved": 3800,
+    "url": "https://imageio.forbes.com/specials-images/imageserve/6170ba72d6ce3f9216c774b5/2021-RAV4-Prime-Exterior-02/960x0.jpg?format=jpg&width=960"
   },
   {
     "reg": "MN34LMN",
@@ -86,7 +87,8 @@
     "number_of_cycles": 800,
     "estimated_time_until_replacement": 30,
     "current_charge": 60,
-    "amount_of_co2_saved": 2500
+    "amount_of_co2_saved": 2500,
+    "url": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1562249020/autoexpress/9/60/civic-type-r-red-rhd-11_0_0_0_0.jpg"
   },
   {
     "reg": "OP56OPQ",
@@ -98,7 +100,8 @@
     "number_of_cycles": 1600,
     "estimated_time_until_replacement": 52,
     "current_charge": 72,
-    "amount_of_co2_saved": 3900
+    "amount_of_co2_saved": 3900,
+    "url": "https://cdn.jdpower.com/Models/640x480/2018-Chevrolet-Impala-LS.jpg"
   },
   {
     "reg": "QR78RST",
@@ -110,7 +113,8 @@
     "number_of_cycles": 1400,
     "estimated_time_until_replacement": 48,
     "current_charge": 68,
-    "amount_of_co2_saved": 3500
+    "amount_of_co2_saved": 3500,
+    "url": "https://media.ed.edmunds-media.com/ford/explorer/2016/oem/2016_ford_explorer_4dr-suv_platinum_fq_oem_1_1600.jpg"
   },
   {
     "reg": "ST90UVW",
