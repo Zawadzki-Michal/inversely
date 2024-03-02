@@ -8,7 +8,8 @@ const VehicleReg = () => {
   let [inputValue, setInputValue] = useState("");
 
   const handleChange = (event) => {
-    setInputValue(event.target.value);
+    const value = event.target.value.toUpperCase();
+    setInputValue(value);
   };
   const handleSubmit = (event) => {
     event.preventDefault();
