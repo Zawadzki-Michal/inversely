@@ -1,27 +1,26 @@
 import Link from "next/link";
+import Header from "../components/header";
 
 export default function Home() {
   return (
-    <div className="flex flex-col mr-5">
-      <section className="flex-grow">
-        <div className="flex flex-col justify-evenly ml-6 lg:flex lg:mx-40 gap-10">
-          <h1 className="mt-10 leading-snug text-6xl font-bold lg:text-8xl lg:max-w-3xl lg:leading-snug lg:w-1/2">
-            About{" "}
-            <span className="bg-emerald-400 py-1 px-2 rounded-md mt-2">Us</span>
-          </h1>
-
-          <div className="flex flex-col justify-between lg:flex lg:flex-row-reverse lg:gap-10 lg:align-bottom lg:w-4/5">
-            <p className="text-md lg:text-lg font-bold mb-10 lg:max-w-2xl lg:mr-24 lg:leading-relaxed">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, laborum dolore reiciendis optio accusamus eveniet facere fugiat qui earum asperiores minima! Neque sequi est totam cupiditate. Blanditiis delectus accusamus deleniti!
-            </p>
-          </div>
-          <div className="flex flex-col justify-between lg:flex lg:flex-row-reverse lg:gap-10 lg:align-bottom lg:w-4/5">
-            <p className="text-md lg:text-lg font-bold mb-10 lg:max-w-2xl lg:mr-24 lg:leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eius vel nesciunt tenetur reiciendis dignissimos reprehenderit libero aliquid et, minima soluta atque. Ipsum reiciendis officia ut quisquam obcaecati ullam itaque!
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
+    <main>
+      <Header />
+      <h1>Welcome to EVHealthCheck.com</h1>
+      <p><strong>About Us: Unveiling the Heart of EVHealthCheck</strong>
+Welcome to EVHealthCheck, where innovation meets eco-conscious decisions. Our story began with a shared passion for sustainable living and a vision to demystify the electric vehicle landscape. EVHealthCheck is more than a platform; it is a movement towards informed choices in the dynamic world of electric mobility.</p>
+    <p><strong>Our Journey: Navigating the Electric Frontier</strong>
+Founded by a team of experts with diverse backgrounds in automotive technology, environmental science, and data analytics, EVHealthCheck was born out of the desire to address a crucial need in the rapidly growing electric vehicle market. We recognized the challenges consumers face when contemplating the purchase of a used electric vehicle and sought to provide a solution that would empower them with knowledge and confidence.</p>
+   <p></p>
+      <p><strong>Our Mission: Empowering Your Electric Journey</strong>
+At the core of EVHealthCheck is a commitment to transparency, sustainability, and innovation. We believe that every journey toward a greener future should be marked by clarity and assurance. Our mission is to equip you with the tools to make informed decisions, especially when it comes to the heart of any electric vehicle—the battery.</p>
+      <p><strong>The Technology Behind EVHealthCheck: Data-Driven Assurance</strong>
+What sets EVHealthCheck apart is our state-of-the-art technology. We have developed a sophisticated algorithm that analyzes a multitude of factors related to an electric vehicles battery health. This powerful tool provides users with a detailed and comprehensible report, ensuring that you have a thorough understanding of what powers your chosen electric companion.</p>
+    <p><strong>Our Commitment to Excellence: Continuous Evolution</strong>
+As the electric vehicle landscape evolves, so do we. Our team is dedicated to staying at the forefront of technological advancements and regularly updating our algorithms to reflect the latest developments in electric vehicle technology. This commitment to excellence ensures that our users receive the most accurate and up-to-date insights into the health of their electric vehicles battery.</p>
+    <p><strong>Join the EVHealthCheck Community: Drive Confidently, Drive Sustainably</strong>
+Whether you are a first-time electric vehicle explorer or a seasoned enthusiast, EVHealthCheck welcomes you to a community that values sustainability, transparency, and the power of knowledge. Thank you for choosing EVHealthCheck as your trusted companion on your electric journey. Together, lets drive confidently towards a greener, more sustainable future.
+</p>
+    
+    </main>
   );
 }
