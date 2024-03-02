@@ -6,7 +6,6 @@ import Header from "./components/header";
 export default function Home() {
   return (
     <main className="lg:min-h-screen w-screen bg-emerald-50">
-      <Header />
       <div className="lg:flex lg:flex-row lg:px-24 justify-center py-4">
       <Image
         src="/Designer2.png"
