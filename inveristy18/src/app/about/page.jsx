@@ -4,7 +4,6 @@ import Header from "../components/header";
 export default function Home() {
   return (
     <main>
-      <Header />
       <h1>Welcome to EVHealthCheck.com</h1>
       <p><strong>About Us: Unveiling the Heart of EVHealthCheck</strong>
 Welcome to EVHealthCheck, where innovation meets eco-conscious decisions. Our story began with a shared passion for sustainable living and a vision to demystify the electric vehicle landscape. EVHealthCheck is more than a platform; it is a movement towards informed choices in the dynamic world of electric mobility.</p>
